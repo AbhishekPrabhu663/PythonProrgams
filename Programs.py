@@ -107,3 +107,29 @@ for i in range(5):
         print(f"is even")
     else:
         print(f" is odd")
+
+
+
+
+# ALL TOGETHER
+# Initialize variables
+user_input = input("Enter a number: ")
+num = int(user_input)  # Explicit type casting
+
+# Use expressions to calculate values
+squared = num ** 2
+print("Square of the number:", squared)
+
+# For loop with conditions
+for i in range(1, 6):
+    if i < squared:
+        print(f" is less than the square of the number")
+    else:
+        print(f" is not less than the square")
+
+# While loop example with conditions and casting
+count = 0
+while count < 3:
+    result = float(count) * squared  # Implicit casting during multiplication
+    print("Loop result:", result)
+    count += 1
